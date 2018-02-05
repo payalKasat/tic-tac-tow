@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+
+    <meta charset="utf-8">
+    <title>HTML Skeleton</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="script_ttt.js"></script>
+    <script src ='win_condition.js'></script>
+</head>
+
+<body>
+<header class="header">
+    <h1 class="heading">Tic Tac Toe</h1>
+</header>
+<main class="main container-fluid">
+    <div class="player-list_area"></div>
+    <div class ='game-area' id ='game-area'></div>    <!--dynamically player list created in js file and game bord-->
+    <div class ='game-area2' id ='game-area2'></div>    <!--dynamically player list created in js file and game bord-->
+
+    <div id="stats" class="stats">
+
+        <button id="game-reset" class="reset_button">Reset Game</button>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="messageModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</main>
+</body>
+
+</html>
